@@ -33,12 +33,12 @@ function Login() {
   };
 
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center min-h-screen">
       <div className="flex  flex-col w-120 border bg-blue-100 rounded-2xl ">
         <form
           action=""
           onClick={hdSubmit}
-          className=" flex flex-col p-20  gap-4 "
+          className=" flex flex-col p-20  gap-2 "
         >
           <p className="font-bold text-3xl">Please Login</p>
           <label htmlFor="">USERNAME :</label>
@@ -56,10 +56,10 @@ function Login() {
             name="password"
             onClick={hdChange}
             value={formLogin.password}
-            className="border bg-white"
+            className="border bg-white "
           ></input>
 
-          <button className="border bg-white">SUBMIT</button>
+          <button className="border bg-white mt-5">SUBMIT</button>
         </form>
       </div>
     </div>

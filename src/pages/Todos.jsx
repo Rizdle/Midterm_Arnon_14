@@ -42,7 +42,7 @@ export default function Todos() {
   };
 
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center min-h-screen ">
       <div className="flex justify-center  flex-col border gap-4 w-100 h-120  bg-white rounded-2xl p-11">
         <p className="text-center text-3xl">TO DO LIST</p>
         <br />

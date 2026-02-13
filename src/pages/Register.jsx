@@ -2,7 +2,7 @@ import React from "react";
 
 function Register() {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center min-h-screen ">
       <div className="flex  flex-col w-120 border bg-blue-100 rounded-2xl ">
         <form
           action=""
