@@ -7,7 +7,7 @@ function NavBar() {
         <NavLink to="/">Lonig</NavLink>
       </div>
       <div className={"  flex justify-center hover:bg-blue-600 w-30"}>
-        <NavLink to="register">register</NavLink>
+        <NavLink to="register">Register</NavLink>
       </div>
       <div className={"flex justify-center hover:bg-blue-600 w-30"}>
         <NavLink to="todos">Todos</NavLink>
